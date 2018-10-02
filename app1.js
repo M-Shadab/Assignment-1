@@ -5,9 +5,10 @@ let month = (process.argv)[2];
 
 //Updating month variable to make substring search easy with the columnName as string.
 if ((month).toUpperCase() == 'JANUARY') month = 'Jan';
-if ((month).toUpperCase() == 'FEBRUARY') month = 'Feb';
-if ((month).toUpperCase() == 'MARCH') month = 'Mar';
-if ((month).toUpperCase() == 'APRIL') month = 'Apr';
+else if ((month).toUpperCase() == 'FEBRUARY') month = 'Feb';
+else if ((month).toUpperCase() == 'MARCH') month = 'Mar';
+else if ((month).toUpperCase() == 'APRIL') month = 'Apr';
+else { console.log('No result found'); return};
 
 const csvFilePath = 'data/customers.csv'; //Path To data Set CSV File.
 csv()
