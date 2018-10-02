@@ -2,13 +2,15 @@
 
 These instructions will get you a copy of the project up and running on your local machine.
 
+I have used nodejs csv parser ```csvtojson module``` to parse csv to json or column arrays.
+
 ### Prerequisites
 
 Install Nodejs
 ```
 https://nodejs.org/en/
 ```
-### Run the Project:
+### Run the Project
 Open cmd in the directory in which you want to clone the project. Then
 ```
 $ git clone https://github.com/M-Shadab/Assignment-1.git
@@ -36,7 +38,7 @@ example- $ node app2.js march
 
 ### Notes
 ```
-Passed one of the Month "january", "february", "March", "April" to the argument from console.
+Pass one of the Month "january", "february", "March", "April" as an argument from console.
 
 Output will also be displayed in the console.
 
